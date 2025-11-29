@@ -15,6 +15,6 @@
 <ng-template #cellTemplate let-item>
   @let olamideItem = adesewaPictures[item.gridIndex % adesewaPictures.length];
   <div class="cell" (click)="onCellClick(item, olamideItem)">
-    <img [src]="'assets/adesewa/' + olamideItem" alt="" />
+    <img [src]="'assets/ours/' + olamideItem" alt="" />
   </div>
 </ng-template>
